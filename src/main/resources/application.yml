@@ -1,0 +1,6 @@
+keycloak:
+  realm: Keycloak-example
+  auth-server-url: http://localhost:8080/auth
+  resource: auth-keycloak
+  public-client: true
+  bearer-only: true
